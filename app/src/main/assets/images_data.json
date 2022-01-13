@@ -1,0 +1,117 @@
+{
+  "background": {
+    "icon" : "background",
+    "images" : []
+  },
+
+  "head" : {
+    "icon" : "head",
+
+    "ears": {
+      "icon" : "ears",
+      "images" : []
+    },
+
+    "mouth": {
+      "icon" : "mouth",
+      "images" : []
+    },
+
+    "nose": {
+      "icon" : "nose",
+      "images" : []
+    },
+
+    "eyes": {
+      "icon" : "eyes",
+      "images" : []
+    },
+
+    "eyebrows": {
+      "icon" : "eyebrows",
+      "images" : []
+    },
+
+    "effects": {
+      "icon" : "effects",
+      "images" : []
+    },
+
+    "head_accessories": {
+      "icon" : "head_accessories",
+      "images" : []
+    }
+
+  },
+
+
+  "hair" : {
+    "icon" : "hair",
+
+    "tails": {
+      "icon" : "tails",
+      "images" : []
+    },
+
+    "hair_behind": {
+      "icon" : "hair_behind",
+      "images" : [
+        "hair_behind/empty",
+        "hair_behind/hair_behind_1",
+        "hair_behind/hair_behind_2",
+        "hair_behind/hair_behind_3",
+        "hair_behind/hair_behind_4"
+      ]
+    },
+
+    "middle_hair": {
+      "icon" : "middle_hair",
+      "images" : []
+    },
+
+    "side_bangs": {
+      "icon" : "side_bangs",
+      "images" : []
+    },
+
+    "front_bangs": {
+      "icon" : "front_bangs",
+      "images" : []
+    },
+
+    "hair_accessories": {
+      "icon" : "hair_accessories",
+      "images" : []
+    }
+
+  },
+
+
+  "clothes" : {
+    "icon" : "clothes",
+
+    "bottom_clothes": {
+      "icon" : "bottom_clothes",
+      "images" : []
+    },
+
+    "top_clothes": {
+      "icon" : "top_clothes",
+      "images" : []
+    },
+
+    "set_clothes": {
+      "icon" : "set_clothes",
+      "images" : []
+    }
+  },
+
+  "sleeves_to_clothes": {
+  },
+
+  "sleeves": {
+  },
+
+  "hands_position": {
+  }
+}

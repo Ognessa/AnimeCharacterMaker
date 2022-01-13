@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item
+        android:id = "@+id/background"
+        android:drawable="@drawable/background"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/tails"
+        android:drawable="@drawable/ic_krugcanvas"
+        android:gravity="bottom"
+        />-->
+
+    <item
+        android:id = "@+id/hair_behind"
+        android:drawable="@drawable/hair_behind"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/hands_position"
+        android:drawable="@drawable/body"
+        android:gravity="bottom"
+        />
+
+    <!--<item
+        android:id = "@+id/bottom_clothes"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/top_clothes"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/middle_hair"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />-->
+
+    <item
+        android:id = "@+id/ears"
+        android:drawable="@drawable/ears"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/head"
+        android:drawable="@drawable/head"
+        android:gravity="bottom"
+        />
+
+   <!-- <item
+        android:id = "@+id/mouth"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/nose"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/eyes"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/eyebrows"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/effects"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/head_accessories"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/side_bangs"
+        android:drawable="@drawable/ic_kubcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/front_bangs"
+        android:drawable="@drawable/ic_krugcanvas"
+        android:gravity="bottom"
+        />
+
+    <item
+        android:id = "@+id/hair_accessories"
+        android:drawable="@drawable/ic_krugcanvas"
+        android:gravity="bottom"
+        />-->
+
+</layer-list>

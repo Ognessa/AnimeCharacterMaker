@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Anime Character Maker</string>
+
+    <string name="create_btn">Create new character</string>
+    <string name="gallery_btn">Gallery</string>
+    <string name="title_activity_redactor">Redactor</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>
