@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="TODO"
-            android:src="@drawable/ic_baseline_linear_scale_24" />
+            app:srcCompat="@drawable/ic_baseline_linear_scale_24" />
 
         <FrameLayout
             android:id="@+id/fl_elements"

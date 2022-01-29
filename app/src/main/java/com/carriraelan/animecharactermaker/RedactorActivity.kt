@@ -15,7 +15,6 @@ open class RedactorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_redactor)
 
-
         /**
          * Resize menu
          */

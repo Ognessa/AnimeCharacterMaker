@@ -1,13 +1,12 @@
 package com.carriraelan.animecharactermaker.ui
 
-import android.content.res.Resources
-import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import com.carriraelan.animecharactermaker.LayerType
 import com.carriraelan.animecharactermaker.R
 
 /**
@@ -15,11 +14,17 @@ import com.carriraelan.animecharactermaker.R
  * Use the [ElementsFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ElementsFragment : Fragment() {
+class ElementsFragment() : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    val LAYER_TYPE : String = "LAYER_TYPE"
 
+    companion object {
+        fun newInstance(lt: LayerType) =
+            ElementsFragment().apply {
+                arguments = Bundle().apply {
+                    putString(LAYER_TYPE, lt.toString())
+                }
+            }
     }
 
     override fun onCreateView(
@@ -28,18 +33,21 @@ class ElementsFragment : Fragment() {
     ): View? {
         val root = inflater.inflate(R.layout.fragment_elements, container, false)
 
+        val tvLayer : TextView = root.findViewById(R.id.tv_layer_name)
+        val bundle : Bundle = requireArguments()
+        val layerType = bundle.getString(LAYER_TYPE)
 
-
+        tvLayer.text = layerType
 
         /**
          * Dynamic create buttons in menu
          */
 
-        val elementsFrame: FrameLayout = root.findViewById(R.id.elements_frame)
+        /*val elementsFrame: FrameLayout = root.findViewById(R.id.elements_frame)
         val linearLayout : LinearLayout = LinearLayout(context)
         var list: ArrayList<TextView> = arrayListOf()
 
-        /*val imgUrlList : ArrayList<String> = arrayListOf()
+        val imgUrlList : ArrayList<String> = arrayListOf()
 
         linearLayout.orientation = LinearLayout.VERTICAL
 
