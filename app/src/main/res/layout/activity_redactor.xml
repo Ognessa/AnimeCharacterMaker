@@ -29,7 +29,7 @@
             android:id="@+id/ibtn_hide_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:contentDescription="hide_menu"
+            android:contentDescription="TODO"
             android:src="@drawable/ic_baseline_linear_scale_24" />
 
         <FrameLayout

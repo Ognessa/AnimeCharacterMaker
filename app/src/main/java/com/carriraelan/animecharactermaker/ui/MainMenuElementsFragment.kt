@@ -24,9 +24,15 @@ open class MainMenuElementsFragment : Fragment() {
     ): View? {
         val view : View = inflater.inflate(R.layout.fragment_main_menu_elements, container, false)
 
-        val ivFafeMenu : ImageView = view.findViewById(R.id.iv_face_menu)
-        ivFafeMenu.setOnClickListener {
+        val ivFaceMenu : ImageView = view.findViewById(R.id.iv_face_menu)
+        val ivHairMenu : ImageView = view.findViewById(R.id.iv_hair_menu)
+
+        ivFaceMenu.setOnClickListener {
             (activity as RedactorActivity).replaceFragment(FaceMenuFragment.newInstance(), R.id.fl_elements)
+        }
+
+        ivHairMenu.setOnClickListener {
+            (activity as RedactorActivity).replaceFragment(HairMenuFragment.newInstance(), R.id.fl_elements)
         }
 
         return view

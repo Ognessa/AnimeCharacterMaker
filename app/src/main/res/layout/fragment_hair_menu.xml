@@ -4,48 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.FaceMenuFragment">
+    tools:context=".ui.HairMenuFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="4">
-
-            <ImageView
-                android:id="@+id/iv_eyes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_eyes_menu" />
-            <ImageView
-                android:id="@+id/iv_ears"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_ears_menu" />
-            <ImageView
-                android:id="@+id/iv_eyebrows"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_eyebrows_menu" />
-            <ImageView
-                android:id="@+id/iv_head_accessories"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_head_accessories_menu" />
-        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,26 +18,57 @@
             android:weightSum="3">
 
             <ImageView
-                android:id="@+id/iv_face_effects"
+                android:id="@+id/iv_tails"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_face_effects_menu" />
+                app:srcCompat="@drawable/icon_tails_menu" />
             <ImageView
-                android:id="@+id/iv_mouth"
+                android:id="@+id/iv_hair_behind"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_mouth_menu" />
+                app:srcCompat="@drawable/icon_hair_behind_menu" />
             <ImageView
-                android:id="@+id/iv_nose"
+                android:id="@+id/iv_middle_hair"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_nose_menu" />
+                app:srcCompat="@drawable/icon_middle_hair_menu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/iv_front_bangs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon_front_bangs_menu" />
+
+            <ImageView
+                android:id="@+id/iv_side_bangs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon_side_bangs_menu" />
+            <ImageView
+                android:id="@+id/iv_hair_accessories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon_hair_accessories_menu" />
+
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

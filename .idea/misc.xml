@@ -19,11 +19,16 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_earth.xml" value="1.1" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_face.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_hair.xml" value="0.221875" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_icoall.xml" value="0.146" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_krugcanvas.xml" value="0.33" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_kubcanvas.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_main.xml" value="0.5" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_piramidacanvas.xml" value="0.221875" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_ears_menu.xml" value="0.146" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_face_menu.xml" value="0.146" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_hair_menu.xml" value="0.146" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_head_accessories_menu.xml" value="0.146" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/layer_list.xml" value="0.25" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/side_nav_bar.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/activity_main.xml" value="0.22" />
@@ -34,6 +39,7 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_elements.xml" value="0.20572916666666666" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_face_menu.xml" value="0.20572916666666666" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_gallery.xml" value="0.20572916666666666" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_hair_menu.xml" value="0.20572916666666666" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_home.xml" value="0.20572916666666666" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_image.xml" value="0.25" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_main_menu_elements.xml" value="0.20572916666666666" />
