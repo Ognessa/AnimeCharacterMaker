@@ -26,13 +26,14 @@
         android:gravity="bottom"
         />
 
-    <!--<item
+    <item
         android:id = "@+id/bottom_clothes"
-        android:drawable="@drawable/ic_kubcanvas"
+        android:drawable="@drawable/bottom_clothes"
         android:gravity="bottom"
         />
 
-    <item
+
+    <!--<item
         android:id = "@+id/top_clothes"
         android:drawable="@drawable/ic_kubcanvas"
         android:gravity="bottom"

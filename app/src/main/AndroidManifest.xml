@@ -12,12 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AnimeCharacterMaker">
         <activity
-            android:name=".ui.RedactorActivity"
+            android:name=".RedactorActivity"
             android:exported="true"
             android:label="@string/title_activity_redactor"
             android:theme="@style/Theme.AnimeCharacterMaker.NoActionBar" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

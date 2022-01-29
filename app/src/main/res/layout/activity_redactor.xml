@@ -15,13 +15,28 @@
 
     </FrameLayout>
 
-    <FrameLayout
-        android:id="@+id/fl_elements"
+    <LinearLayout
+        android:id="@+id/ll_menu_elem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/primary_alpha60">
 
-    </FrameLayout>
+        <ImageButton
+            android:id="@+id/ibtn_hide_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="hide_menu"
+            android:src="@drawable/ic_baseline_linear_scale_24" />
+
+        <FrameLayout
+            android:id="@+id/fl_elements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

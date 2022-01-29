@@ -27,24 +27,10 @@ class ElementsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val root = inflater.inflate(R.layout.fragment_elements, container, false)
-        root.layoutParams.height = Resources.getSystem().displayMetrics.heightPixels / 2
 
-        /**
-         * Resize menu
-         */
-        val hideBtn : ImageButton = root.findViewById(R.id.ibtn_hide_menu)
-        var flag = true
-        hideBtn.setOnClickListener{
-            if(flag){
-                root.layoutParams.height = hideBtn.height
-                root.requestLayout()
-                flag = false
-            }else{
-                root.layoutParams.height = Resources.getSystem().displayMetrics.heightPixels / 2
-                root.requestLayout()
-                flag = true
-            }
-        }
+
+
+
         /**
          * Dynamic create buttons in menu
          */
