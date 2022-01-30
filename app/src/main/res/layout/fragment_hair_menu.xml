@@ -31,6 +31,7 @@
                 android:layout_weight="1"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/icon_hair_behind_menu" />
+
             <ImageView
                 android:id="@+id/iv_middle_hair"
                 android:layout_width="wrap_content"
@@ -38,6 +39,14 @@
                 android:layout_weight="1"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/icon_middle_hair_menu" />
+
+            <ImageView
+                android:id="@+id/iv_side_bangs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon_side_bangs_menu" />
         </LinearLayout>
 
         <LinearLayout
@@ -55,12 +64,12 @@
                 app:srcCompat="@drawable/icon_front_bangs_menu" />
 
             <ImageView
-                android:id="@+id/iv_side_bangs"
+                android:id="@+id/iv_ahoge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon_side_bangs_menu" />
+                app:srcCompat="@drawable/icon_ahoge_menu" />
             <ImageView
                 android:id="@+id/iv_hair_accessories"
                 android:layout_width="wrap_content"

@@ -19,34 +19,39 @@ class HairMenuFragment : Fragment() {
         // Inflate the layout for this fragment
         val view : View = inflater.inflate(R.layout.fragment_hair_menu, container, false)
 
-        val tvTails : ImageView = view.findViewById(R.id.iv_tails)
-        val tvHairBehind : ImageView = view.findViewById(R.id.iv_hair_behind)
-        val tvMiddleHair : ImageView = view.findViewById(R.id.iv_middle_hair)
-        val tvFrontBangs : ImageView = view.findViewById(R.id.iv_front_bangs)
-        val tvSideBangs : ImageView = view.findViewById(R.id.iv_side_bangs)
-        val tvHairAccessories : ImageView = view.findViewById(R.id.iv_hair_accessories)
+        val ivTails : ImageView = view.findViewById(R.id.iv_tails)
+        val ivHairBehind : ImageView = view.findViewById(R.id.iv_hair_behind)
+        val ivMiddleHair : ImageView = view.findViewById(R.id.iv_middle_hair)
+        val ivSideBangs : ImageView = view.findViewById(R.id.iv_side_bangs)
+        val ivFrontBangs : ImageView = view.findViewById(R.id.iv_front_bangs)
+        val ivAhoge : ImageView = view.findViewById(R.id.iv_ahoge)
+        val ivHairAccessories : ImageView = view.findViewById(R.id.iv_hair_accessories)
 
-        tvTails.setOnClickListener {
+        ivTails.setOnClickListener {
             (activity as RedactorActivity)
                 .replaceFragment(ElementsFragment.newInstance(LayerType.TAILS), R.id.fl_elements)
         }
-        tvHairBehind.setOnClickListener {
+        ivHairBehind.setOnClickListener {
             (activity as RedactorActivity)
                 .replaceFragment(ElementsFragment.newInstance(LayerType.HAIR_BEHIND), R.id.fl_elements)
         }
-        tvMiddleHair.setOnClickListener {
+        ivMiddleHair.setOnClickListener {
             (activity as RedactorActivity)
                 .replaceFragment(ElementsFragment.newInstance(LayerType.MIDDLE_HAIR), R.id.fl_elements)
         }
-        tvFrontBangs.setOnClickListener {
-            (activity as RedactorActivity)
-                .replaceFragment(ElementsFragment.newInstance(LayerType.FRONT_BANGS), R.id.fl_elements)
-        }
-        tvSideBangs.setOnClickListener {
+        ivSideBangs.setOnClickListener {
             (activity as RedactorActivity)
                 .replaceFragment(ElementsFragment.newInstance(LayerType.SIDE_BANGS), R.id.fl_elements)
         }
-        tvHairAccessories.setOnClickListener {
+        ivFrontBangs.setOnClickListener {
+            (activity as RedactorActivity)
+                .replaceFragment(ElementsFragment.newInstance(LayerType.FRONT_BANGS), R.id.fl_elements)
+        }
+        ivAhoge.setOnClickListener {
+            (activity as RedactorActivity)
+                .replaceFragment(ElementsFragment.newInstance(LayerType.AHOGE), R.id.fl_elements)
+        }
+        ivHairAccessories.setOnClickListener {
             (activity as RedactorActivity)
                 .replaceFragment(ElementsFragment.newInstance(LayerType.HAIR_ACCESSORIES), R.id.fl_elements)
         }

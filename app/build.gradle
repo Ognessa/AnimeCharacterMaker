@@ -36,9 +36,6 @@ android {
 
 dependencies {
 
-    // https://mvnrepository.com/artifact/com.squareup.moshi/moshi
-    implementation group: 'com.squareup.moshi', name: 'moshi', version: '1.13.0'
-
     // https://mvnrepository.com/artifact/org.kohsuke/github-api
     implementation group: 'org.kohsuke', name: 'github-api', version: '1.301'
 

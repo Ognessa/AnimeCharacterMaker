@@ -1,117 +1,47 @@
 {
-  "background": {
-    "icon" : "background",
-    "images" : []
-  },
+  "background":[],
 
-  "head" : {
-    "icon" : "head",
+  "ears":[],
 
-    "ears": {
-      "icon" : "ears",
-      "images" : []
-    },
+  "mouth":[],
 
-    "mouth": {
-      "icon" : "mouth",
-      "images" : []
-    },
+  "nose":[],
 
-    "nose": {
-      "icon" : "nose",
-      "images" : []
-    },
+  "eyes":[],
 
-    "eyes": {
-      "icon" : "eyes",
-      "images" : []
-    },
+  "eyebrows":[],
 
-    "eyebrows": {
-      "icon" : "eyebrows",
-      "images" : []
-    },
+  "effects":[],
 
-    "effects": {
-      "icon" : "effects",
-      "images" : []
-    },
+  "head_accessories":[],
 
-    "head_accessories": {
-      "icon" : "head_accessories",
-      "images" : []
-    }
+  "tails":[],
 
-  },
+  "hair_behind":[
+      "hair_behind/empty",
+      "hair_behind/hair_behind_1",
+      "hair_behind/hair_behind_2",
+      "hair_behind/hair_behind_3",
+      "hair_behind/hair_behind_4"
+    ],
 
+  "middle_hair":[],
 
-  "hair" : {
-    "icon" : "hair",
+  "side_bangs":[],
 
-    "tails": {
-      "icon" : "tails",
-      "images" : []
-    },
+  "front_bangs":[],
 
-    "hair_behind": {
-      "icon" : "hair_behind",
-      "images" : [
-        "hair_behind/empty",
-        "hair_behind/hair_behind_1",
-        "hair_behind/hair_behind_2",
-        "hair_behind/hair_behind_3",
-        "hair_behind/hair_behind_4"
-      ]
-    },
+  "hair_accessories":[],
 
-    "middle_hair": {
-      "icon" : "middle_hair",
-      "images" : []
-    },
+  "bottom_clothes":[],
 
-    "side_bangs": {
-      "icon" : "side_bangs",
-      "images" : []
-    },
+  "top_clothes":[],
 
-    "front_bangs": {
-      "icon" : "front_bangs",
-      "images" : []
-    },
+  "set_clothes":[],
 
-    "hair_accessories": {
-      "icon" : "hair_accessories",
-      "images" : []
-    }
+  "sleeves_to_clothes": [],
 
-  },
+  "sleeves": [],
 
-
-  "clothes" : {
-    "icon" : "clothes",
-
-    "bottom_clothes": {
-      "icon" : "bottom_clothes",
-      "images" : []
-    },
-
-    "top_clothes": {
-      "icon" : "top_clothes",
-      "images" : []
-    },
-
-    "set_clothes": {
-      "icon" : "set_clothes",
-      "images" : []
-    }
-  },
-
-  "sleeves_to_clothes": {
-  },
-
-  "sleeves": {
-  },
-
-  "hands_position": {
-  }
+  "hands_position": []
 }

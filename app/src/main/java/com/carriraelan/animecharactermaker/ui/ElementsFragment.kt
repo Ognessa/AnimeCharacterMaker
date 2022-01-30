@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.carriraelan.animecharactermaker.LayerType
+import com.carriraelan.animecharactermaker.MenuItems
 import com.carriraelan.animecharactermaker.R
 
 /**
@@ -14,7 +15,7 @@ import com.carriraelan.animecharactermaker.R
  * Use the [ElementsFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ElementsFragment() : Fragment() {
+class ElementsFragment : Fragment() {
 
     val LAYER_TYPE : String = "LAYER_TYPE"
 
@@ -39,31 +40,37 @@ class ElementsFragment() : Fragment() {
 
         tvLayer.text = layerType
 
+        //get data like text
+        if(layerType.equals(LayerType.HAIR_BEHIND.toString())){
+            val menuItems = MenuItems()
+            val list : ArrayList<String> = context?.let { menuItems.getHairBehind(it) }!!
+
+            val elementsFrame: FrameLayout = root.findViewById(R.id.elements_frame)
+            val linearLayout = LinearLayout(activity)
+            var tVList: ArrayList<TextView> = arrayListOf()
+
+            linearLayout.orientation = LinearLayout.VERTICAL
+
+            for(i in 0 until list.size) {
+                val imgBtn = TextView(activity)
+                imgBtn.id = 10 + i
+                imgBtn.text = list[i]
+                imgBtn.setOnClickListener{
+                    //TODO function!!!!
+                }
+                tVList.add(imgBtn)
+            }
+
+            for(i in tVList){
+                linearLayout.addView(i)
+            }
+            elementsFrame.addView(linearLayout)
+
+        }
+
         /**
          * Dynamic create buttons in menu
          */
-
-        /*val elementsFrame: FrameLayout = root.findViewById(R.id.elements_frame)
-        val linearLayout : LinearLayout = LinearLayout(context)
-        var list: ArrayList<TextView> = arrayListOf()
-
-        val imgUrlList : ArrayList<String> = arrayListOf()
-
-        linearLayout.orientation = LinearLayout.VERTICAL
-
-        for(i in imgUrlList) {
-            val text:TextView = TextView(activity)
-            //text.id = 10 + i
-            //text.text = i.imgUrl
-            text.setTextColor(Color.BLACK)
-
-            list.add(text)
-        }
-
-        for(i in list){
-            linearLayout.addView(i)
-        }
-        elementsFrame.addView(linearLayout)*/
 
         /*val elementsFrame: FrameLayout = root.findViewById(R.id.elements_frame)
         val linearLayout : LinearLayout = LinearLayout(activity)
@@ -93,14 +100,4 @@ class ElementsFragment() : Fragment() {
 
         return root
     }
-
-    /*fun colorsArray(): ArrayList<Int> {
-        var colors = arrayListOf<Int>()
-        colors.add(Color.RED)
-        colors.add(Color.GREEN)
-        colors.add(Color.GRAY)
-        colors.add(Color.BLUE)
-        colors.add(Color.YELLOW)
-        return colors
-    }*/
 }

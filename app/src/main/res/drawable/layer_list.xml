@@ -2,23 +2,23 @@
 <layer-list
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!--<item
+    <item
         android:id = "@+id/background"
         android:drawable="@drawable/background"
         android:gravity="bottom"
         />
 
-    <item
+    <!--<item
         android:id = "@+id/tails"
         android:drawable="@drawable/ic_krugcanvas"
         android:gravity="bottom"
         />-->
 
-    <item
+   <!-- <item
         android:id = "@+id/hair_behind"
         android:drawable="@drawable/hair_behind"
         android:gravity="bottom"
-        />
+        />-->
 
     <item
         android:id = "@+id/hands_position"
@@ -37,13 +37,13 @@
         android:id = "@+id/top_clothes"
         android:drawable="@drawable/ic_kubcanvas"
         android:gravity="bottom"
-        />
+        />-->
 
     <item
         android:id = "@+id/middle_hair"
-        android:drawable="@drawable/ic_kubcanvas"
+        android:drawable="@drawable/middle_hair"
         android:gravity="bottom"
-        />-->
+        />
 
     <item
         android:id = "@+id/ears"
@@ -57,25 +57,25 @@
         android:gravity="bottom"
         />
 
-   <!-- <item
+    <item
         android:id = "@+id/mouth"
-        android:drawable="@drawable/ic_kubcanvas"
+        android:drawable="@drawable/mouth"
         android:gravity="bottom"
         />
 
     <item
         android:id = "@+id/nose"
-        android:drawable="@drawable/ic_kubcanvas"
+        android:drawable="@drawable/nose"
         android:gravity="bottom"
         />
 
     <item
         android:id = "@+id/eyes"
-        android:drawable="@drawable/ic_kubcanvas"
+        android:drawable="@drawable/eyes"
         android:gravity="bottom"
         />
 
-    <item
+   <!-- <item
         android:id = "@+id/eyebrows"
         android:drawable="@drawable/ic_kubcanvas"
         android:gravity="bottom"
@@ -91,16 +91,22 @@
         android:id = "@+id/head_accessories"
         android:drawable="@drawable/ic_kubcanvas"
         android:gravity="bottom"
-        />
+        />-->
 
     <item
-        android:id = "@+id/side_bangs"
-        android:drawable="@drawable/ic_kubcanvas"
+        android:id = "@+id/front_bangs"
+        android:drawable="@drawable/front_bangs"
         android:gravity="bottom"
         />
 
     <item
-        android:id = "@+id/front_bangs"
+        android:id = "@+id/side_bangs"
+        android:drawable="@drawable/side_bangs"
+        android:gravity="bottom"
+        />
+
+    <!--<item
+        android:id = "@+id/ahoge"
         android:drawable="@drawable/ic_krugcanvas"
         android:gravity="bottom"
         />

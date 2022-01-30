@@ -7,10 +7,12 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable-v24/icon_hair_menu.xml" value="0.146" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/background.xml" value="0.21388888888888888" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/body.xml" value="0.33" />
-        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/bottom_clothes.xml" value="0.146" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/bottom_clothes.xml" value="0.18" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ears.xml" value="0.67" />
-        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/hair_behind.xml" value="0.5" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/front_bangs.xml" value="0.158" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/hair_behind.xml" value="0.33" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/hair_behind_3.xml" value="0.33" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/hair_behind_5.xml" value="0.158" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/head.xml" value="0.67" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_baseline_linear_scale_24.xml" value="0.221875" />
@@ -18,7 +20,12 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_clothes.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_cube.xml" value="0.25" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_earth.xml" value="1.1" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_eyes1.xml" value="0.158" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_face.xml" value="0.221875" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_frame_24.xml" value="0.158" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_frame_25.xml" value="0.158" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_frame_26.xml" value="0.158" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_frame_27.xml" value="0.158" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_hair.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_hairall.xml" value="0.136" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_icoall.xml" value="0.146" />
@@ -27,6 +34,8 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_main.xml" value="0.5" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_piramidacanvas.xml" value="0.221875" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_rep1.xml" value="0.138" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_rot1.xml" value="0.158" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_ears_menu.xml" value="0.146" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_face_menu.xml" value="0.146" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_front_bangs_menu.xml" value="0.136" />
@@ -37,7 +46,8 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_middle_hair_menu.xml" value="0.136" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_side_bangs_menu.xml" value="0.136" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_tails_menu.xml" value="0.136" />
-        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/layer_list.xml" value="0.25" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/layer_list.xml" value="0.33" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/middle_hair.xml" value="0.158" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/side_nav_bar.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/activity_redactor.xml" value="0.20572916666666666" />
@@ -47,7 +57,7 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_elements.xml" value="0.20572916666666666" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_face_menu.xml" value="0.20572916666666666" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_gallery.xml" value="0.20572916666666666" />
-        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_hair_menu.xml" value="0.20572916666666666" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_hair_menu.xml" value="0.33" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_home.xml" value="0.20572916666666666" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_image.xml" value="0.25" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/fragment_main_menu_elements.xml" value="0.20572916666666666" />
