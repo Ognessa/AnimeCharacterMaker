@@ -14,6 +14,7 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/hair_behind_3.xml" value="0.33" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/hair_behind_5.xml" value="0.158" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/head.xml" value="0.67" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_background.xml" value="0.2105" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_baseline_linear_scale_24.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/ic_body.xml" value="0.67" />
@@ -46,7 +47,7 @@
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_middle_hair_menu.xml" value="0.136" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_side_bangs_menu.xml" value="0.136" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/icon_tails_menu.xml" value="0.136" />
-        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/layer_list.xml" value="0.33" />
+        <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/layer_list.xml" value="0.25" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/middle_hair.xml" value="0.158" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/drawable/side_nav_bar.xml" value="0.221875" />
         <entry key="..\:/Projects/AnimeCharacterMaker/app/src/main/res/layout/activity_main.xml" value="0.22" />

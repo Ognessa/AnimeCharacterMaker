@@ -1,11 +1,11 @@
 package com.carriraelan.animecharactermaker.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import androidx.fragment.app.Fragment
 import com.carriraelan.animecharactermaker.LayerType
 import com.carriraelan.animecharactermaker.R
 import com.carriraelan.animecharactermaker.RedactorActivity
@@ -19,6 +19,7 @@ class HairMenuFragment : Fragment() {
         // Inflate the layout for this fragment
         val view : View = inflater.inflate(R.layout.fragment_hair_menu, container, false)
 
+        //init
         val ivTails : ImageView = view.findViewById(R.id.iv_tails)
         val ivHairBehind : ImageView = view.findViewById(R.id.iv_hair_behind)
         val ivMiddleHair : ImageView = view.findViewById(R.id.iv_middle_hair)
@@ -27,6 +28,9 @@ class HairMenuFragment : Fragment() {
         val ivAhoge : ImageView = view.findViewById(R.id.iv_ahoge)
         val ivHairAccessories : ImageView = view.findViewById(R.id.iv_hair_accessories)
 
+        /**
+         * Open ElementsFragment with different layer type
+         */
         ivTails.setOnClickListener {
             (activity as RedactorActivity)
                 .replaceFragment(ElementsFragment.newInstance(LayerType.TAILS), R.id.fl_elements)

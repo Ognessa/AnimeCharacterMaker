@@ -7,6 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.carriraelan.animecharactermaker.R
 
+/**
+ * Fragment with image
+ */
+//TODO maybe update screen???
 open class ImageFragment : Fragment() {
     companion object{
         fun newInstance(): ImageFragment {
@@ -23,9 +27,7 @@ open class ImageFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val root = inflater.inflate(R.layout.fragment_image, container, false)
-
-        return root
+        return inflater.inflate(R.layout.fragment_image, container, false)
     }
 
 }

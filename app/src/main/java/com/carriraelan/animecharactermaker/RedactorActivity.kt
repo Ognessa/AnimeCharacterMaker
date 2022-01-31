@@ -1,10 +1,10 @@
 package com.carriraelan.animecharactermaker
 
 import android.content.res.Resources
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.LinearLayout
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.carriraelan.animecharactermaker.ui.ImageFragment
@@ -16,7 +16,7 @@ open class RedactorActivity : AppCompatActivity() {
         setContentView(R.layout.activity_redactor)
 
         /**
-         * Resize menu
+         * Init and resize menu
          */
         val hideBtn : ImageButton = findViewById(R.id.ibtn_hide_menu)
         val llMenuElem : LinearLayout = findViewById(R.id.ll_menu_elem)
@@ -42,6 +42,9 @@ open class RedactorActivity : AppCompatActivity() {
         getFragment(MainMenuElementsFragment.newInstance(), R.id.fl_elements)
     }
 
+    /**
+     * Just open Fragments in this Activity
+     */
     open fun getFragment(fr : Fragment, id : Int){
         val fragmentManager : FragmentManager = supportFragmentManager
         fragmentManager.beginTransaction()
@@ -49,6 +52,10 @@ open class RedactorActivity : AppCompatActivity() {
             .commit()
     }
 
+    /**
+     * Open new fragment and add it to backstack
+     * (can move to previous menu)
+     */
     open fun replaceFragment(fr : Fragment, id : Int){
         val fragmentManager : FragmentManager = supportFragmentManager
         fragmentManager.beginTransaction()

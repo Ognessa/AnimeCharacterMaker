@@ -1,14 +1,20 @@
 package com.carriraelan.animecharactermaker.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+import android.widget.FrameLayout
+import android.widget.LinearLayout
+import android.widget.ScrollView
+import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.carriraelan.animecharactermaker.LayerType
 import com.carriraelan.animecharactermaker.MenuItems
 import com.carriraelan.animecharactermaker.R
+import org.kohsuke.github.GitHub
+import java.io.*
+import java.net.URL
 
 /**
  * A simple [Fragment] subclass.
@@ -43,11 +49,12 @@ class ElementsFragment : Fragment() {
         //get data like text
         if(layerType.equals(LayerType.HAIR_BEHIND.toString())){
             val menuItems = MenuItems()
-            val list : ArrayList<String> = context?.let { menuItems.getHairBehind(it) }!!
+            val list : ArrayList<String> = getXMLImages(context?.let { menuItems.getHairBehind(it) }!!)
 
             val elementsFrame: FrameLayout = root.findViewById(R.id.elements_frame)
             val linearLayout = LinearLayout(activity)
-            var tVList: ArrayList<TextView> = arrayListOf()
+            val scrollView = ScrollView(activity)
+            val tVList: ArrayList<TextView> = arrayListOf()
 
             linearLayout.orientation = LinearLayout.VERTICAL
 
@@ -64,7 +71,8 @@ class ElementsFragment : Fragment() {
             for(i in tVList){
                 linearLayout.addView(i)
             }
-            elementsFrame.addView(linearLayout)
+            scrollView.addView(linearLayout)
+            elementsFrame.addView(scrollView)
 
         }
 
@@ -100,4 +108,51 @@ class ElementsFragment : Fragment() {
 
         return root
     }
+
+    /**
+     * get text from file in repository
+     */
+    //TODO cannot use connection in main thread
+    fun getXMLImages(imgNameList : ArrayList<String>) : ArrayList<String>{
+        val imgList : ArrayList<String> = arrayListOf()
+        val git: GitHub = GitHub.connectAnonymously()
+
+        for (i in imgNameList){
+        val str = git
+            .getUser("Ognessa")
+            .getRepository("AnimeCharacterMakerContent")
+            .getFileContent(i).downloadUrl
+        val input : InputStream = URL(str).openStream()
+        imgList.add(readFromInputStream(input))
+        }
+        return imgList
+    }
+
+    /**
+     * Read all file and return all text from it
+     */
+    fun readFromInputStream(inputStream : InputStream) : String {
+        val resultStringBuilder : StringBuilder = StringBuilder()
+        try {
+            val br = BufferedReader(InputStreamReader(inputStream))
+            var line : String = br.readLine()
+            while (!line.equals(null)) {
+                resultStringBuilder.append(line).append("\n")
+                line = br.readLine()
+            }
+        }catch (e:IOException){
+            e.printStackTrace()
+        }
+            return resultStringBuilder.toString()
+    }
+
+    /**
+     * Write text to file (And crete this file if not exist)
+     */
+    fun stringToDom(xmlSource : String, filePath: String) {
+        val fw : FileWriter = FileWriter(filePath)
+        fw.write(xmlSource)
+        fw.close();
+    }
+
 }
