@@ -4,6 +4,7 @@ import android.content.res.Resources
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.LinearLayout
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -21,8 +22,8 @@ open class RedactorActivity : AppCompatActivity() {
         val hideBtn : ImageButton = findViewById(R.id.ibtn_hide_menu)
         val llMenuElem : LinearLayout = findViewById(R.id.ll_menu_elem)
         llMenuElem.layoutParams.height = Resources.getSystem().displayMetrics.heightPixels / 2
-
         var flag = true
+
         hideBtn.setOnClickListener{
             if(flag){
                 llMenuElem.layoutParams.height = hideBtn.height
